@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'GangwonEdu_OTFBoldA';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.inner {
+    max-width: 1480px;
+    margin: 0 auto;
+    width: 100%;
+}
+.section_1 h2 {
+    font-family: 'GmarketSansLight';
+    text-align: center;
+    color: red;
+    border-bottom: 3px solid red;
+    width: 7%;
+    padding: 9px;
+    margin: 0px auto;
+}
+.section_1 h5 {
+    font-family: 'GmarketSansLight';
+    text-align: center;
+}
+.section_1 h4 {
+    text-align: center;
+    font-family: 'GangwonEdu_OTFBoldA';
+    font-style: italic;
+    color: gray;
+}
+.section_2_img {
+    display: flex;
+    justify-content: center;
+}
+.section_2_img {
+    width: 100%;
+}
+.section_2_img_con {
+    text-align: center;
+    font-family: 'GmarketSansLight';
+    width: 20%;
+    flex-shrink: 0;
+}
+.section_2_con_img img {
+    width: 100%;
+    display: block;
+}
+.thebogi_1 {
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 7px;
+    font-size: 15px;
+    width: 20%;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'GmarketSansLight';
+    transition: all 0.3s;
+}
+.thebogi_1:hover {
+    background-color: red;
+}
+.thebogi_1:hover a {
+    color: #fff;
+} 
+.section_2_con_img:hover > img {
+    transform: rotateZ(15deg);
+}
+
